@@ -1,0 +1,30 @@
+package com.ejemplo;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class Ejercicio1Activity extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.agregar);
+        
+        Button btnAgregar=(Button)findViewById(R.id.buttonAgregar);
+        //CamelCase
+        btnAgregar.setOnClickListener(new OnClickListener(){
+        	public void onClick(View view){
+        		Toast.makeText(Ejercicio1Activity.this, "Evento",Toast.LENGTH_LONG);
+        	}
+        });
+        
+        
+    }
+    
+    
+    
+}
