@@ -1,0 +1,30 @@
+package com.ejemplo;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class ListaRelacionActivity extends Activity {
+
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.lista_persona);
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu){
+		
+		getMenuInflater().inflate(R.menu.menu_lista, menu);
+		return super.onCreateOptionsMenu(menu);
+		
+	}
+	
+	
+	@Override
+	public void onOptionsItemSelected(MenuItem item){
+		
+	}
+}

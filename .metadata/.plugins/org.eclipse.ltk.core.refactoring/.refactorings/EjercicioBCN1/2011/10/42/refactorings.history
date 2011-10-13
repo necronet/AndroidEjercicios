@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Extracts string &apos;null&apos; into R.string.agregar" description="Extracts string &apos;null&apos; into R.string.agregar" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="SELECT_NEW_ID" proj="/EjercicioBCN1" rplc-all-java="false" rplc-all-xml="false" stamp="1318457737353"/>&#x0A;<refactoring comment="Rename resource &apos;EjercicioBCN1/res/layout/main.xml&apos; to &apos;agregar.xml&apos;" description="Rename resource &apos;main.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/main.xml" name="agregar.xml" stamp="1318458044658" updateReferences="true"/>
+</session>

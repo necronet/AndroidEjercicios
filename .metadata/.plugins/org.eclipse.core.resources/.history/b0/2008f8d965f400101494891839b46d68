@@ -1,0 +1,26 @@
+package com.holamundo;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class HolaMundoActivity extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        Button buttonBoton=(Button) findViewById(R.id.buttonBoton);
+        buttonBoton.setOnClickListener(new OnClickListener(){
+
+			public void onClick(View view) {
+				
+			}
+        	
+        });
+        
+    }
+}
