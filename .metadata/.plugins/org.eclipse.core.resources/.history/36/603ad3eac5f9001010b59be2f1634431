@@ -1,0 +1,31 @@
+package com.ejemplo;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+public class HttpCaller {
+
+	public String request(String url) throws ClientProtocolException, IOException{
+		HttpClient client=new DefaultHttpClient();
+		
+		HttpGet httpGet=new HttpGet(url);
+		
+		HttpResponse response=client.execute(httpGet);
+		
+		InputStream iStream=response.getEntity().getContent();
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(iStream));
+		String line=reader.readLine();
+		Log.d("HttpCall",line);
+		
+	}
+	
+}

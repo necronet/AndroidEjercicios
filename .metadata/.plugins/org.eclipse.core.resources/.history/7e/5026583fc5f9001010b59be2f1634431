@@ -1,0 +1,10 @@
+package com.ejemplo;
+
+public class HttpCaller {
+
+	public String request(String url){
+		
+		
+	}
+	
+}

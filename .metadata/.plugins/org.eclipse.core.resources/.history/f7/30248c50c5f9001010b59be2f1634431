@@ -1,0 +1,15 @@
+package com.ejemplo;
+
+import org.apache.http.client.HttpClient;
+import org.apache.http.impl.client.DefaultHttpClient;
+
+public class HttpCaller {
+
+	public String request(String url){
+		HttpClient client=new DefaultHttpClient();
+		
+		
+		
+	}
+	
+}

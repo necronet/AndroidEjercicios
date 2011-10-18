@@ -1,0 +1,38 @@
+package com.ejemplo;
+
+import java.io.IOException;
+
+import org.apache.http.client.ClientProtocolException;
+
+import android.app.Activity;
+import android.os.AsyncTask;
+import android.os.Bundle;
+
+public class EjercicioAsynTaskActivity extends Activity {
+    
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+    }
+    
+    public class TareaAsincrona extends AsyncTask<Void,Void,Void>{
+
+		@Override
+		protected Void doInBackground(Void... arg0) {
+			try {
+				new HttpCaller().request("http://bcn.guegue.info/json/index");
+			} catch (ClientProtocolException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return null;
+		}
+    	
+		
+    }
+    
+}
