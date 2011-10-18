@@ -1,0 +1,16 @@
+package com.ejemplo;
+
+import java.util.List;
+
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+public class PersonaAdapter extends ArrayAdapter<Persona> {
+
+	public PersonaAdapter(Context context, int textViewResourceId,
+			List<Persona> objects) {
+		super(context, textViewResourceId, objects);
+		
+	}
+
+}

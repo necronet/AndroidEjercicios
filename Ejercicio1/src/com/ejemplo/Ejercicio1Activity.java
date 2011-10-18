@@ -1,6 +1,7 @@
 package com.ejemplo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -9,7 +10,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.SpinnerAdapter;
 import android.widget.Toast;
 
 public class Ejercicio1Activity extends Activity {
@@ -22,7 +22,7 @@ public class Ejercicio1Activity extends Activity {
         setContentView(R.layout.agregar);
         
         final Spinner spinnerRelacion=(Spinner)findViewById(R.id.spinnerRelacion);
-        ArrayAdapter spinnerAdapter=new ArrayAdapter(this,android.R.layout.simple_spinner_item, relaciones);
+        ArrayAdapter spinnerAdapter=new ArrayAdapter(this,android.R.layout.simple_spinner_item,relaciones);
         spinnerRelacion.setAdapter(spinnerAdapter);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         
@@ -42,7 +42,14 @@ public class Ejercicio1Activity extends Activity {
 				Toast.makeText(Ejercicio1Activity.this, "TExt depurado "+nombre +" "+ apellido+" relacion:"+relacion, Toast.LENGTH_LONG).show();
 				
 				Log.d("Ejercicio1","Depurando evento");
-				setResult(RESULT_OK);
+				
+				Intent datas=new Intent();
+				
+				datas.putExtra("nombre", nombre);
+				datas.putExtra("apellido", apellido);
+				datas.putExtra("relacion", relacion);
+				
+				setResult(RESULT_OK,datas);
 				finish();
 			}
         	

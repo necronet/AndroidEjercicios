@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="36" version="2.0">
+<workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
 <window height="772" maximized="true" width="1347" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
@@ -20,11 +20,13 @@
 <coolItem id="org.eclipse.wst.server.ui.internal.webbrowser.actionSet" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.wst.ws.explorer.explorer" itemType="typeToolBarContribution" x="32" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="54" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.layout.LayoutEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -43,30 +45,31 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ejercicio1Activity.java" partName="Ejercicio1Activity.java" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java" title="Ejercicio1Activity.java" tooltip="Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="497" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaRelacionActivity.java" partName="ListaRelacionActivity.java" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java" title="ListaRelacionActivity.java" tooltip="Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaRelacionActivity.java" partName="ListaRelacionActivity.java" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java" title="ListaRelacionActivity.java" tooltip="Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="744" selectionTopPixel="212"/>
+<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="1767" selectionTopPixel="669"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="lista_persona.xml" partName="lista_persona.xml" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/res/layout/lista_persona.xml" title="lista_persona.xml" tooltip="Ejercicio1/res/layout/lista_persona.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ejercicio1/res/layout/lista_persona.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonaAdapter.java" partName="PersonaAdapter.java" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/src/com/ejemplo/PersonaAdapter.java" title="PersonaAdapter.java" tooltip="Ejercicio1/src/com/ejemplo/PersonaAdapter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ejercicio1/src/com/ejemplo/PersonaAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="8" selectionOffset="443" selectionTopPixel="91"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="agregar.xml" partName="agregar.xml" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/res/layout/agregar.xml" title="agregar.xml" tooltip="Ejercicio1/res/layout/agregar.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ejercicio1/res/layout/agregar.xml"/>
+<editor id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="styles.xml" partName="styles.xml" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/res/values/styles.xml" title="styles.xml" tooltip="Ejercicio1/res/values/styles.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ejercicio1/res/values/styles.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ejercicio1Activity.java" partName="Ejercicio1Activity.java" path="/Users/joseayerdis/Documents/bcnworkspace/Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java" title="Ejercicio1Activity.java" tooltip="Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1818" selectionTopPixel="422"/>
 </editor>
 </editors>
 <views>
+<view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
-<viewState/>
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
@@ -80,13 +83,16 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Warnings (3 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -98,9 +104,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
@@ -133,9 +137,7 @@
 </view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List">
 <viewState linkWithEditor="true" presentation="org.eclipse.mylyn.tasks.ui.categorized">
-<sorter groupBy="CATEGORY_QUERY">
-<sorter>
-<sort0 sortDirection="1" sortKey="PRIORITY"/>
+<sorter groupBy="CATEGORY_QUERY">&#x0A;<sorter>&#x0A;<sort0 sortDirection="1" sortKey="PRIORITY"/>
 <sort1 sortDirection="1" sortKey="RANK"/>
 <sort2 sortDirection="1" sortKey="DATE_CREATED"/>
 <sort3 sortDirection="1" sortKey="NONE"/>
@@ -265,7 +267,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.doc.actionSet"/>
@@ -329,24 +331,41 @@
 <perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
-<view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@c4fa1cd" orientation="256" selectedTabId="org.eclipse.mylyn.tasks.ui.views.tasks" style="1">
+<fastViews>
+<view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29938272"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@51036271" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="1">
+<fastViews>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.52006173"/>
+<view id="com.android.ide.eclipse.ddms.views.DeviceView" ratio="0.29938272"/>
+</fastViews>
+</fastViewBar>
 <fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="0">
 <fastViews>
-<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.29918033"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="256" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.29938272"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
@@ -363,41 +382,37 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24940991" ratioLeft="317" ratioRight="954" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.6496124" ratioLeft="419" ratioRight="226" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<info folder="true" part="bottom" ratio="0.3736434" ratioLeft="241" ratioRight="404" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@c4fa1cd" ratio="0.7494759" ratioLeft="715" ratioRight="239" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.mylyn.tasks.ui.views.tasks" appearance="2" expanded="2">
-<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="Task List"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.5" ratioLeft="242" ratioRight="242" relationship="4" relative="org.eclipse.ui.internal.ViewStack@c4fa1cd">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@51036271" ratio="0.56899226" ratioLeft="367" ratioRight="278" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.DeviceView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -407,133 +422,149 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ejercicio1/src/com/ejemplo/EjercicioBCN1Activity.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ejercicio1/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Ejercicio1/res/layout/agregar.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Ejercicio1/res/layout/lista_persona.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.menu.MenuEditor" path="/Ejercicio1/res/menu/menu_lista.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ejercicio1/src/com/ejemplo/PersonaAdapter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ejercicio1/src/com/ejemplo/Persona.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" path="/Ejercicio1/res/layout/lista_persona_item.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" path="/Ejercicio1/res/values/styles.xml"/>
 </editors>
-<item historyLabel="EjercicioBCN1Activity.java" index="0">
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="1885" y="0"/>
+</item>
+<item historyLabel="Ejercicio1Activity.java" index="0">
+<position info="not_deleted" x="1865" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="1885" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="628" y="0"/>
+</item>
+<item historyLabel="lista_persona.xml" index="2"/>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="644" y="0"/>
+</item>
+<item historyLabel="lista_persona.xml" index="2"/>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="644" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="289" y="7"/>
 </item>
-<item historyLabel="Ejercicio1 Manifest" index="2"/>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ListaRelacionActivity.java" index="3">
-<position info="not_deleted" x="221" y="0"/>
-</item>
-<item historyLabel="agregar.xml" index="4"/>
-<item historyLabel="lista_persona.xml" index="5"/>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="968" y="0"/>
-</item>
-<item historyLabel="lista_persona.xml" index="5"/>
-<item historyLabel="ListaRelacionActivity.java" index="3">
-<position info="not_deleted" x="346" y="0"/>
-</item>
-<item historyLabel="menu_lista.xml" index="6"/>
-<item historyLabel="ListaRelacionActivity.java" index="3">
-<position info="not_deleted" x="799" y="0"/>
-</item>
-<item historyLabel="agregar.xml" index="4"/>
-<item historyLabel="ListaRelacionActivity.java" index="3">
-<position info="not_deleted" x="744" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="243" y="18"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="927" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="550" y="6"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="542" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="608" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="641" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position/>
-</item>
-<item historyLabel="agregar.xml" index="4"/>
-<item historyLabel="lista_persona.xml" index="5"/>
-<item historyLabel="agregar.xml" index="4"/>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="619" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="668" y="21"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="649" y="18"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="672" y="15"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="904" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="668" y="21"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="783" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="786" y="1"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="867" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="886" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="889" y="0"/>
-</item>
-<item historyLabel="Ejercicio1Activity.java" index="1">
-<position info="not_deleted" x="850" y="3"/>
-</item>
-<item active="true" historyLabel="Ejercicio1Activity.java" index="1">
+<item historyLabel="Persona.java" index="4">
 <position info="not_deleted" x="497" y="0"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="289" y="7"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="1282" y="0"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="385" y="7"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="514" y="35"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="385" y="7"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="1281" y="0"/>
+</item>
+<item historyLabel="lista_persona_item.xml" index="5">
+<position/>
+</item>
+<item historyLabel="styles.xml" index="6"/>
+<item historyLabel="lista_persona_item.xml" index="5"/>
+<item historyLabel="styles.xml" index="6"/>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="1281" y="0"/>
+</item>
+<item historyLabel="lista_persona_item.xml" index="5"/>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="1253" y="0"/>
+</item>
+<item historyLabel="lista_persona.xml" index="2"/>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="1253" y="0"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="829" y="1"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="835" y="0"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="302" y="31"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="302" y="31"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="450" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="448" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="584" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="1632" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="1883" y="0"/>
+</item>
+<item historyLabel="Ejercicio1Activity.java" index="0">
+<position info="not_deleted" x="1765" y="0"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="1634" y="0"/>
+</item>
+<item historyLabel="PersonaAdapter.java" index="3">
+<position info="not_deleted" x="443" y="8"/>
+</item>
+<item historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="1005" y="0"/>
+</item>
+<item historyLabel="Ejercicio1Activity.java" index="0">
+<position info="not_deleted" x="1818" y="0"/>
+</item>
+<item active="true" historyLabel="ListaRelacionActivity.java" index="1">
+<position info="not_deleted" x="1005" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -548,7 +579,6 @@
 <trimItem IMemento.internal.id="bottom"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@c4fa1cd"/>
 <trimItem IMemento.internal.id="right"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -558,21 +588,43 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@51036271"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ejercicio1Activity.java" tooltip="Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java">
+<persistable path="/Ejercicio1/src/com/ejemplo/Ejercicio1Activity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="lista_persona.xml" tooltip="Ejercicio1/res/layout/lista_persona.xml">
+<persistable path="/Ejercicio1/res/layout/lista_persona.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="lista_persona_item.xml" tooltip="Ejercicio1/res/layout/lista_persona_item.xml">
+<persistable path="/Ejercicio1/res/layout/lista_persona_item.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.resources.ResourcesEditor" name="styles.xml" tooltip="Ejercicio1/res/values/styles.xml">
+<persistable path="/Ejercicio1/res/values/styles.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Persona.java" tooltip="Ejercicio1/src/com/ejemplo/Persona.java">
+<persistable path="/Ejercicio1/src/com/ejemplo/Persona.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PersonaAdapter.java" tooltip="Ejercicio1/src/com/ejemplo/PersonaAdapter.java">
+<persistable path="/Ejercicio1/src/com/ejemplo/PersonaAdapter.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaRelacionActivity.java" tooltip="Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java">
+<persistable path="/Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Activity.class" tooltip="android.app.Activity">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Ejercicio1/\/Users\/joseayerdis\/Documents\/android-sdk-mac_x86\/platforms\/android-8\/android.jar&lt;android.app(Activity.class"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="SpinnerAdapter.class" tooltip="android.widget.SpinnerAdapter">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Ejercicio1/\/Users\/joseayerdis\/Documents\/android-sdk-mac_x86\/platforms\/android-8\/android.jar&lt;android.widget(SpinnerAdapter.class"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="agregar.xml" tooltip="Ejercicio1/res/layout/agregar.xml">
 <persistable path="/Ejercicio1/res/layout/agregar.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.menu.MenuEditor" name="menu_lista.xml" tooltip="Ejercicio1/res/menu/menu_lista.xml">
 <persistable path="/Ejercicio1/res/menu/menu_lista.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="lista_persona.xml" tooltip="Ejercicio1/res/layout/lista_persona.xml">
-<persistable path="/Ejercicio1/res/layout/lista_persona.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaRelacionActivity.java" tooltip="Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java">
-<persistable path="/Ejercicio1/src/com/ejemplo/ListaRelacionActivity.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ejercicio1/AndroidManifest.xml">
 <persistable path="/Ejercicio1/AndroidManifest.xml"/>
@@ -585,21 +637,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListaRelacionActivity.java" tooltip="EjercicioBCN1/src/com/ejemplo/ListaRelacionActivity.java">
 <persistable path="/EjercicioBCN1/src/com/ejemplo/ListaRelacionActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="lista_persona.xml" tooltip="EjercicioBCN1/res/layout/lista_persona.xml">
-<persistable path="/EjercicioBCN1/res/layout/lista_persona.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EjercicioBCN1Activity.java" tooltip="EjercicioBCN1/src/com/ejemplo/EjercicioBCN1Activity.java">
-<persistable path="/EjercicioBCN1/src/com/ejemplo/EjercicioBCN1Activity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HolaMundoActivity.java" tooltip="HolaMundo/src/com/holamundo/HolaMundoActivity.java">
-<persistable path="/HolaMundo/src/com/holamundo/HolaMundoActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.layout.LayoutEditor" name="main.xml" tooltip="HolaMundo/res/layout/main.xml">
-<persistable path="/HolaMundo/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="HolaMundo/gen/com/holamundo/R.java">
-<persistable path="/HolaMundo/gen/com/holamundo/R.java"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<TextView android:id="@+id/textNombre" 
+		android:text="Jose"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" 
+	android:paddingRight="20dip" android:paddingLeft="10dip" android:textSize="18dip"/>
+	
+	<TextView android:id="@+id/textApellido"
+	android:text="Ayerdis"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_toRightOf="@id/textNombre"
+	android:layout_alignParentTop="true"
+	android:textSize="18dip"/>
+	
+	<TextView android:id="@+id/textRelacion"
+	android:text="Super amigazo"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/textNombre"
+	android:paddingLeft="10dip" android:textSize="20dip"/>
+	
+
+
+</RelativeLayout>

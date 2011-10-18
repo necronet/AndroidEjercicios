@@ -1,0 +1,20 @@
+package com.ejemplo;
+
+import java.util.List;
+
+import android.content.Context;
+import android.widget.ArrayAdapter;
+
+public class PersonaAdapter extends ArrayAdapter<Persona> {
+
+	private List<Persona> personas;
+	
+	public PersonaAdapter(Context context, int textViewResourceId,
+			List<Persona> personas) {
+		super(context, textViewResourceId, personas);
+		this.personas=personas;
+	}
+	
+	
+
+}
